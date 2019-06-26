@@ -7,7 +7,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      staff: people.staff
+      staff: people.staff, 
+      students: people.students
     }
   }
 
@@ -19,6 +20,7 @@ class App extends Component {
       </header>
       <main className="showcase">
         <Cohort title='Staff' people={this.state.staff} />
+        <Cohort title='Students' people={this.state.students} />
       </main>
       </div>
     );
