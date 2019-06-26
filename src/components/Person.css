@@ -1,0 +1,32 @@
+article {
+  height: 100%;
+  width: 100%;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+img {
+  object-fit: cover;
+  height: 255px;
+  width: 250px;
+  margin: 5% 0 0 0;
+  border-radius: 5%;
+}
+
+.text {
+  margin: 5px;
+  width: 250px;
+  font-size: 15px;
+}
+
+.name {
+  color: hsl(9, 100%, 64%)
+}
+
+.super {
+  color: hsl(218, 78%, 67%);
+}
+
