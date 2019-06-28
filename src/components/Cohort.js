@@ -11,7 +11,8 @@ const Cohort = ({ title, people }) => {
       image={person.photo} 
       name={person.name} 
       quote={person.quote} 
-      superlative={person.superlative}
+      superlative={person.superlative} 
+      key={people.indexOf(person)}
       />
     )
   });
